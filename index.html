@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="shortcut icon" href="./images/favicon/favicon.ico" type="image/x-icon">
+    <title>Mandola Inverters & Battery House</title>
+</head>
+
+<body>
+
+
+    <!-- Header Section Start -->
+    <section class="navbar-section">
+
+        <div class="container desk-navbar">
+            <header>
+                <div class="brand-logo">
+                    <a href="index.html" class="nav-logo">NAVBAR</a>
+                </div>
+                <div class="desk-nav-tags">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="inverter.html">Inverters</a>
+                    <a class="nav-link" href="batteries.html">About</a>
+                    <a class="nav-link" href="about.html">Help</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </div>
+            </header>
+        </div>
+
+        <div class="container mobile-navbar">
+            <header>
+                <div class="brand-logo">
+                    <a href="index.html" class="nav-logo">NAVBAR</a>
+                </div>
+                <div class="open-close-button">
+                    <button class="btn" onclick="openNav()">☰</button>
+                </div>
+            </header>
+        </div>
+
+    </section>
+
+    <div class="nav-tags" id="navbar-links">
+        <button class="btn" class="close-nav-btn" onclick="closeNav()">x</button>
+        <a href="index.html" onclick="closeNav()">Home</a>
+        <a href="inverter.html" onclick="closeNav()">Inverters</a>
+        <a href="batteries.html" onclick="closeNav()">About</a>
+        <a href="about.html" onclick="closeNav()">Help</a>
+        <a href="contact.html" onclick="closeNav()">Contact</a>
+    </div>
+    <!-- Header Section Ends -->
+
+
+
+    <!-- Slider Start -->
+    <div id="minimal-bootstrap-carousel" class="carousel slide carousel-fade slider-content-style slider-home-one">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="carousel-item slide-1 active" style="background-image: url('./images/slider1.jpg');">
+                <div class="carousel-caption">
+                    <div class="container">
+                        <div class="box valign-middle">
+                            <div class="content text-center">
+                                <p data-animation="animated fadeInUp" class="animated fadeInUp">
+                                    WE, THE SMART ENERGY INNOVATOR
+                                </p>
+                                <h3 data-animation="animated fadeInUp" class="animated fadeInUp">Mandola Inverters</h3>
+                                <a data-animation="animated fadeInDown" href="#"
+                                    class="thm-btn animated fadeInDown">Free Consultation</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item slide-2" style="background-image: url('./images/slider2.jpg');">
+                <!-- <div class="carousel-caption">
+                    <div class="container">
+                        <div class="box valign-middle">
+                            <div class="content text-center">
+                                <p data-animation="animated fadeInUp" class="animated fadeInUp">EXPLORE OIR COLLCETION
+                                    BY</p>
+                                <h3 data-animation="animated fadeInUp" class="animated fadeInUp">BIKE BRAND</h3>
+                                <a data-animation="animated fadeInDown" href="#"
+                                    class="thm-btn animated fadeInDown">Free Consultation</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <div class="carousel-item slide-3" style="background-image: url('./images/slider3.webp');">
+                <!-- <div class="carousel-caption">
+                    <div class="container">
+                        <div class="box valign-middle">
+                            <div class="content text-center">
+                                <p data-animation="animated fadeInUp" class="animated fadeInUp">EXPLORE OIR COLLCETION
+                                    BY</p>
+                                <h3 data-animation="animated fadeInUp" class="animated fadeInUp">BIKE SPARES</h3>
+                                <a data-animation="animated fadeInDown" href="#"
+                                    class="thm-btn animated fadeInDown">Free Consultation</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <!-- Controls -->
+        <a class="carousel-control-prev" href="#minimal-bootstrap-carousel" role="button" data-slide="prev">
+            ←
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#minimal-bootstrap-carousel" role="button" data-slide="next">
+            →
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- Slider Ends -->
+
+
+
+    <!-- Inverters Section Start -->
+    <section class="inverter-section">
+        <div class="container">
+            <h1 class="heading">the best inverters available</h1>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="inverter-inner-sec">
+                        <div class="image-section">
+                            <img src="./images/inverter.jpg" alt="inverter-image">
+                            <div class="btn-section">
+                                <button class="btn whatsapp-btn">Whatsapp Us</button>
+                                <button class="btn call-btn">Call Us</button>
+                            </div>
+                        </div>
+                        <p class="inverter-name">Solar Inverter 220W</p>
+                        <p class="inverter-prise">Rs
+                            <span class="full-prise">7500</span>
+                            <span class="less-prise">5630</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="inverter-inner-sec">
+                        <div class="image-section">
+                            <img src="./images/inverter.jpg" alt="inverter-image">
+                            <div class="btn-section">
+                                <button class="btn whatsapp-btn">Whatsapp Us</button>
+                                <button class="btn call-btn">Call Us</button>
+                            </div>
+                        </div>
+                        <p class="inverter-name">Solar Inverter 220W</p>
+                        <p class="inverter-prise">Rs
+                            <span class="full-prise">7500</span>
+                            <span class="less-prise">5630</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="inverter-inner-sec">
+                        <div class="image-section">
+                            <img src="./images/inverter.jpg" alt="inverter-image">
+                            <div class="btn-section">
+                                <button class="btn whatsapp-btn">Whatsapp Us</button>
+                                <button class="btn call-btn">Call Us</button>
+                            </div>
+                        </div>
+                        <p class="inverter-name">Solar Inverter 220W</p>
+                        <p class="inverter-prise">Rs
+                            <span class="full-prise">7500</span>
+                            <span class="less-prise">5630</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="inverter-inner-sec">
+                        <div class="image-section">
+                            <img src="./images/inverter.jpg" alt="inverter-image">
+                            <div class="btn-section">
+                                <button class="btn whatsapp-btn">Whatsapp Us</button>
+                                <button class="btn call-btn">Call Us</button>
+                            </div>
+                        </div>
+                        <p class="inverter-name">Solar Inverter 220W</p>
+                        <p class="inverter-prise">Rs
+                            <span class="full-prise">7500</span>
+                            <span class="less-prise">5630</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Inverters Section Ends -->
+
+
+    <!-- Home Battery Section Start -->
+    <!-- Home Battery Section Ends -->
+
+
+
+    <!-- Cars Battery Section Start -->
+    <!-- Cars Battery Section Ends -->
+
+
+    <!-- Bikes Battery Section Start -->
+    <!-- Bikes Battery Section Ends -->
+
+
+    <!-- Why Us Section Start -->
+    <!-- Why Us Section Ends -->
+
+
+    <!-- Footer Section Start -->
+    <!-- Footer Section Ends -->
+
+
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/header-script.js"></script>
+    <script src="./js/index-slider.js"></script>
+
+
+</body>
+
+</html>
