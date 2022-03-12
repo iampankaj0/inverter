@@ -205,14 +205,16 @@
 .inverter-section,
 .battery-section,
 .car-battery-section,
-.bike-battery-section{
+.bike-battery-section,
+.why-us{
     margin-top: 60px;
 }
 
 .inverter-section .heading,
 .battery-section .heading,
 .car-battery-section .heading,
-.bike-battery-section .heading{
+.bike-battery-section .heading,
+.why-us .heading{
     text-transform: capitalize;
     font-size: 25px;
     text-align: center;
@@ -223,7 +225,8 @@
 .inverter-section .heading:after,
 .battery-section .heading:after,
 .car-battery-section .heading::after,
-.bike-battery-section .heading:after{
+.bike-battery-section .heading:after,
+.why-us .heading:after{
     content: '';
     display: block;
     border-top: 5px solid #000;
@@ -339,6 +342,7 @@
 .car-battery-inner-sec .battery-prise .less-prise,
 .bike-battery-inner-sec .battery-prise .less-prise{
     color: red;
+    font-weight: 700;
 }
 
 .inverter-section .view-all-inverter,
@@ -356,6 +360,23 @@
 /* inverter-section Ends */
 
 
+/* Why Us Start */
+.why-us .sub-heading{
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+    border-bottom: 1px solid #af9d9d;
+}
+
+.why-us p{
+    margin: 0;
+}
+/* Why Us Ends */
+
+
+
+
 
 
 
@@ -370,7 +391,8 @@
     .inverter-section,
     .battery-section,
     .car-battery-section,
-    .bike-battery-section{
+    .bike-battery-section,
+    .why-us{
         margin-top: 40px;
     }
 
