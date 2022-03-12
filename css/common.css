@@ -65,7 +65,7 @@ a:hover{
     margin-top: 30px;
     color: #888;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 22px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -89,6 +89,51 @@ a:hover{
 }
 
 
+
+
+
+
+
+
+/* footer Start */
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+    margin-top: 60px;
+}
+
+footer .heading{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer a{
+    display: block;
+    width: 100%;
+    color: #8d8a8a;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: underline;
+    margin: 5px 0;
+}
+
+footer a:hover{
+    color: #fff;
+}
+/* footer Ends */
+
+
+
+
+
+
 @media screen and (min-width: 991px) {
     .navbar-section .mobile-navbar{
         display: none;
@@ -99,4 +144,30 @@ a:hover{
     .navbar-section .desk-navbar{
         display: none;
     }
+
+    .footer{
+        margin-top: 40px;
+    }
 }
+
+@media screen and (max-width: 767px) {
+    footer .col-md-4:first-child{
+        margin-top: 0;
+    }
+    footer .col-md-4{
+        margin-top: 20px;
+    }
+    footer{
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+

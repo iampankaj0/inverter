@@ -363,6 +363,7 @@
 /* Why Us Start */
 .why-us .sub-heading{
     font-size: 18px;
+    font-weight: 700;
     margin-bottom: 15px;
     padding-bottom: 5px;
     text-transform: capitalize;
@@ -372,9 +373,48 @@
 .why-us p{
     margin: 0;
 }
+
+.why-us p span{
+    display: block;
+    font-weight: 700;
+    color: #004492;
+}
 /* Why Us Ends */
 
 
+/* footer Start */
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+    margin-top: 60px;
+}
+
+footer .heading{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer a{
+    display: block;
+    width: 100%;
+    color: #8d8a8a;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: underline;
+    margin: 5px 0;
+}
+
+footer a:hover{
+    color: #fff;
+}
+/* footer Ends */
 
 
 
@@ -392,7 +432,8 @@
     .battery-section,
     .car-battery-section,
     .bike-battery-section,
-    .why-us{
+    .why-us,
+    .footer{
         margin-top: 40px;
     }
 
@@ -401,15 +442,32 @@
     .battery-section .row .col-md-6:first-child,
     .battery-section .row .col-md-6:nth-child(2),
     .car-battery-section .row .col-md-6:first-child,
-    .car-battery-section .row .col-md-6:nth-child(2){
+    .car-battery-section .row .col-md-6:nth-child(2),
+    .bike-battery-section .row .col-md-6:first-child,
+    .bike-battery-section .row .col-md-6:nth-child(2){
         margin-bottom: 25px;
     }
 }
 
 @media screen and (max-width: 767px) {
+    .why-us .col-md-4:first-child,
+    footer .col-md-4:first-child{
+        margin-top: 0;
+    }
+    .why-us .col-md-4,
+    footer .col-md-4{
+        margin-top: 20px;
+    }
+    footer{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 575px) {
     .inverter-section .row .col-md-6:nth-child(3),
     .battery-section .row .col-md-6:nth-child(3),
-    .car-battery-section .row .col-md-6:nth-child(2){
+    .car-battery-section .row .col-md-6:nth-child(3),
+    .bike-battery-section .row .col-md-6:nth-child(3){
         margin-bottom: 25px;
     }
 }
