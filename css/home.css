@@ -202,11 +202,15 @@
 
 
 /* inverter-section Start */
-.inverter-section{
+.inverter-section,
+.battery-section,
+.car-battery-section{
     margin-top: 40px;
 }
 
-.inverter-section .heading{
+.inverter-section .heading,
+.battery-section .heading,
+.car-battery-section .heading{
     text-transform: capitalize;
     font-size: 25px;
     text-align: center;
@@ -214,7 +218,9 @@
     font-weight: 700;
 }
 
-.inverter-section .heading:after{
+.inverter-section .heading:after,
+.battery-section .heading:after,
+.car-battery-section .heading::after{
     content: '';
     display: block;
     border-top: 5px solid #000;
@@ -225,15 +231,21 @@
     border-radius: 50%;
 }
 
-.inverter-section .inverter-inner-sec{
+.inverter-section .inverter-inner-sec,
+.battery-section .battery-inner-sec,
+.car-battery-section .car-battery-inner-sec{
     border: 1px solid #d8d8d8;
 }
 
-.inverter-inner-sec .image-section {
+.inverter-inner-sec .image-section,
+.battery-inner-sec .image-section,
+.car-battery-inner-sec .image-section {
     position: relative;
 }
 
-.inverter-inner-sec .image-section .btn-section{
+.inverter-inner-sec .image-section .btn-section,
+.battery-inner-sec .image-section .btn-section,
+.car-battery-inner-sec .image-section .btn-section{
     position: absolute;
     top: 0;
     width: 100%;
@@ -247,12 +259,16 @@
 }
 
 
-.inverter-inner-sec:hover .btn-section{
+.inverter-inner-sec:hover .btn-section,
+.battery-inner-sec:hover .btn-section,
+.car-battery-inner-sec:hover .btn-section{
     opacity: 1;
 }
 
 
-.inverter-inner-sec .image-section .btn-section .whatsapp-btn{
+.inverter-inner-sec .image-section .btn-section .whatsapp-btn,
+.battery-inner-sec .image-section .btn-section .whatsapp-btn,
+.car-battery-inner-sec .image-section .btn-section .whatsapp-btn{
     background-color: #25D366;
     color: #fff;
     margin-right: 15px;
@@ -261,7 +277,9 @@
 }
 
 
-.inverter-inner-sec .image-section .btn-section .call-btn{
+.inverter-inner-sec .image-section .btn-section .call-btn,
+.battery-inner-sec .image-section .btn-section .call-btn,
+.car-battery-inner-sec .image-section .btn-section .call-btn{
     background-color: red;
     color: #fff;
     font-size: 16px;
@@ -269,11 +287,15 @@
 }
 
 
-.inverter-section .inverter-inner-sec img{
+.inverter-section .inverter-inner-sec img,
+.battery-section .battery-inner-sec img,
+.car-battery-section .car-battery-inner-sec img{
     width: 100%;
 }
 
-.inverter-section .inverter-inner-sec .inverter-name{
+.inverter-section .inverter-inner-sec .inverter-name,
+.battery-section .battery-inner-sec .battery-name,
+.car-battery-section .car-battery-inner-sec .battery-name{
     text-align: center;
     font-size: 20px;
     font-weight: 500;
@@ -282,17 +304,65 @@
     border-top: 1px solid #d8d8d8;
 }
 
-.inverter-section .inverter-inner-sec .inverter-prise{
+.inverter-section .inverter-inner-sec .inverter-prise,
+.battery-section .battery-inner-sec .battery-prise,
+.car-battery-section .car-battery-inner-sec .battery-prise{
     text-align: center;
     font-weight: 500;
 }
 
-.inverter-inner-sec .inverter-prise .full-prise{
+.inverter-inner-sec .inverter-prise .full-prise,
+.battery-inner-sec .battery-prise .full-prise,
+.car-battery-inner-sec .battery-prise .full-prise{
     text-decoration: line-through;
     color: #999;
     margin-right: 10px;
 }
-.inverter-inner-sec .inverter-prise .less-prise{
+.inverter-inner-sec .inverter-prise .less-prise,
+.battery-inner-sec .battery-prise .less-prise,
+.car-battery-inner-sec .battery-prise .less-prise{
     color: red;
 }
+
+.inverter-section .view-all-inverter,
+.battery-section .view-all-battery,
+.car-battery-section .all-car-battery{
+    display: block;
+    margin: 25px auto 0;
+    font-size: 16px;
+    padding: 10px 40px;
+    font-weight: 500;
+    color: #fff;
+    background-color: teal;
+}
 /* inverter-section Ends */
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 991px) {
+    .inverter-section .row .col-md-6:first-child,
+    .inverter-section .row .col-md-6:nth-child(2),
+    .battery-section .row .col-md-6:first-child,
+    .battery-section .row .col-md-6:nth-child(2),
+    .car-battery-section .row .col-md-6:first-child,
+    .car-battery-section .row .col-md-6:nth-child(2){
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .inverter-section .row .col-md-6:nth-child(3),
+    .battery-section .row .col-md-6:nth-child(3),
+    .car-battery-section .row .col-md-6:nth-child(2){
+        margin-bottom: 25px;
+    }
+}
