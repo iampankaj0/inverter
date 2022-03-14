@@ -140,6 +140,59 @@ footer a:hover{
 
 
 
+/* Why Us Start */
+.why-us{
+    margin-top: 60px;
+}
+
+.why-us .heading{
+    text-transform: capitalize;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.why-us .heading:after{
+    content: '';
+    display: block;
+    border-top: 5px solid #000;
+    width: 70%;
+    margin-top: 7px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50%;
+}
+
+.why-us .sub-heading{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+    border-bottom: 1px solid #af9d9d;
+}
+
+.why-us p{
+    margin: 0;
+}
+
+.why-us p span{
+    display: block;
+    font-weight: 700;
+    color: #004492;
+}
+/* Why Us Ends */
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (min-width: 992px) {
@@ -156,6 +209,9 @@ footer a:hover{
     .footer{
         margin-top: 40px;
     }
+    .why-us{
+        margin-top: 40px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -167,6 +223,12 @@ footer a:hover{
     }
     footer{
         text-align: center;
+    }
+    .why-us .col-md-4:first-child{
+        margin-top: 0;
+    }
+    .why-us .col-md-4{
+        margin-top: 20px;
     }
 }
 

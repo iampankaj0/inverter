@@ -1,0 +1,243 @@
+.banner-section{
+    background: url('../images//inverter-bann.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 150px;
+}
+
+.banner-section h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #ffba60;
+}
+
+
+
+/* best inverter for you section CSS Start */
+.best-inverter-avail{
+    margin-top: 60px;
+}
+
+.best-inverter-avail .heading-div h2{
+    margin-bottom: 5px;
+    margin-top: 0;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.best-inverter-avail .heading-div h2 span{
+    color: #ffba60;
+}
+
+.best-inverter-avail .heading-div small{
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.best-inverter-avail .heading-div small:after{
+    content: '';
+    display: block;
+    border-top: 5px solid #000;
+    width: 70%;
+    margin-top: 7px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50%;
+}
+
+
+
+.inverter-types li.nav-item{
+    width: 50%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+ul.inverter-types {
+    border: 1px solid #dee2e6;
+    border-radius: 15px;
+}
+
+.inverter-types .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffba60;
+}
+.inverter-types .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #ffba60;
+    border: none;
+}
+
+.inverter-types li:first-child a{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 0;
+}
+.inverter-types li:last-child a{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 0;
+}
+
+.best-inverter-avail .inverter-type-heading{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 25px 0 0;
+}
+
+.electric-inverter-row,
+.solar-inverter-row{
+    justify-content: center;
+}
+
+.electric-inverter-row .card,
+.solar-inverter-row .card{
+    height: 100%;
+}
+
+.electric-inverter-row .card img,
+.solar-inverter-row .card img{
+    width: 100%;
+}
+
+.electric-inverter-row .card .card-body,
+.solar-inverter-row .card .card-body{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.electric-inverter-row .card .card-footer,
+.solar-inverter-row .card .card-footer{
+    padding: 5px;
+}
+
+.electric-inverter-row .card-footer .product-name,
+.solar-inverter-row .card-footer .product-name{
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.electric-inverter-row .card-footer .prise,
+.solar-inverter-row .card-footer .prise{
+    color: red;
+    font-weight: 700;
+    text-align: center;
+}
+
+.electric-inverter-row .card-footer .prise span,
+.solar-inverter-row .card-footer .prise span{
+    color: #999;
+    margin: 0 7px;
+    text-decoration: line-through;
+    font-weight: normal;
+}
+
+.electric-inverter-row .card-footer .btn-section,
+.solar-inverter-row .card-footer .btn-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.electric-inverter-row .card-footer .btn-section .whatsapp-btn,
+.solar-inverter-row .card-footer .btn-section .whatsapp-btn {
+    font-size: 13px;
+    background-color: #25D366;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+}
+
+
+.electric-inverter-row .card-footer .btn-section .call-btn,
+.solar-inverter-row .card-footer .btn-section .call-btn {
+    font-size: 13px;
+    background-color: #ef9273;
+    color: #fff;
+}
+
+.electric-inverter-row .col-lg-3,
+.solar-inverter-row .col-lg-3{
+    margin-top: 25px;
+}
+
+#electric-inverters .pagination,
+#solar-inverters .pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#electric-inverters .pagination a,
+#solar-inverters .pagination a{
+    font-size: 16px;
+    color: #ef9273
+}
+
+#electric-inverters .pagination li.active a,
+#solar-inverters .pagination li.active a{
+    background-color: #ef9273;
+    color: #fff;
+    border-color: #dee2e6;
+}
+
+#electric-inverters .pagination li a:focus,
+#solar-inverters .pagination li a.focus{
+    box-shadow: none;
+}
+
+
+/* best inverter for you section CSS Ends */
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 991px) {
+    .banner-section {
+        padding: 100px;
+    }
+    .best-inverter-avail{
+        margin-top: 40px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .banner-section {
+        padding: 60px;
+    }
+}
+
+
+@media screen and (max-width: 575px) {
+    .banner-section {
+        padding: 60px;
+    }
+}
+
+
+@media screen and (max-width: 345px) {
+    .inverter-types .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{
+        padding: 10px 0;
+    }
+}

@@ -8,12 +8,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow&family=PT+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/common.css">
+    <link rel="preload stylesheet" as="style" href="./css/bootstrap.min.css">
+    <link rel="preload stylesheet" as="style" href="./css/common.css">
+    <link rel="preload stylesheet" as="style" href="./css/contact.css">
     <title>Mandola Inverters & Battery House</title>
 </head>
 
-<body>
+<body onload="preLoaderFunction()">
+
+    <div id="loading"></div>
 
 
     <!-- Header Section Start -->
@@ -58,6 +61,13 @@
 
 
 
+    <!-- Banner Section Start -->
+    <section class="banner-section">
+        <div class="container">
+            <!-- <h1  class="inverters">The best inverters for you</h1> -->
+        </div>
+    </section>
+    <!-- Banner Section Ends -->
 
 
 
@@ -80,6 +90,38 @@
 
 
 
+
+    <!-- Why Us Section Start -->
+    <section class="why-us">
+        <div class="container">
+            <h1 class="heading">Why us</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="sub-heading">On Time <span>electric-inverters Delivery</span></h2>
+                    <p>
+                        We deliver all our produsts to your doorstep on time. Please give one chance to give our
+                        service...
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h2 class="sub-heading">Happy <span>clients</span></h2>
+                    <p>
+                        In the past 12 years, we have earned the trust of over 6000 consumers. They all are happy to our
+                        servies...
+                        <span>Happy Clints : Happy Us</span>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h2 class="sub-heading">Our <span>Support</span></h2>
+                    <p>
+                        Our highly skilled team is available 24 hours a day, seven days a week by phone, chat, and
+                        email.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Why Us Section Ends -->
 
 
 
@@ -128,6 +170,12 @@
     <script src="./js/jquery-3.6.0.min.js"></script>
     <script src="./js/header-script.js"></script>
 
+    <script>
+        var preloader = document.getElementById('loading');
+        function preLoaderFunction() {
+            preloader.style.display = 'none';
+        }
+    </script>
 
 </body>
 
