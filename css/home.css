@@ -463,11 +463,11 @@ footer a:hover{
     }
 }
 
-@media screen and (max-width: 575px) {
+/* @media screen and (max-width: 575px) {
     .inverter-section .row .col-md-6:nth-child(3),
     .battery-section .row .col-md-6:nth-child(3),
     .car-battery-section .row .col-md-6:nth-child(3),
     .bike-battery-section .row .col-md-6:nth-child(3){
         margin-bottom: 25px;
     }
-}
+} */
