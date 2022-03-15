@@ -16,8 +16,183 @@
 
 
 
+/* best battert section start */
+.all-batteries{
+    margin-top: 60px;
+}
+
+.all-batteries .heading-div h2{
+    margin-bottom: 5px;
+    margin-top: 0;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.all-batteries .heading-div h2 span{
+    color: #ffba60;
+}
+
+.all-batteries .heading-div small{
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.all-batteries .heading-div small:after{
+    content: '';
+    display: block;
+    border-top: 5px solid #000;
+    width: 70%;
+    margin-top: 7px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50%;
+}
 
 
+.battery-nav-tabs {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.battery-nav-tabs a{
+    width: 16.66%;
+    text-align: center;
+}
+
+
+.battery-nav-tabs .nav-item.show .nav-link, .battery-nav-tabs .nav-link.active{
+    color: #fff!important;
+    background-color: #ffba60;
+    font-weight: 500;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.battery-nav-tabs .nav-link {
+    color: #ffba60!important;
+    margin-bottom: -1px;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border: 1px solid #dee2e6;
+}
+
+
+#nav-tabContent .heading{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 25px 0 0;
+    color: teal;
+}
+
+#nav-tabContent .heading i{
+    color: red;
+    margin-right: 7px;
+}
+
+
+
+
+.battery-row{
+    justify-content: center;
+}
+
+.battery-row .card{
+    height: 100%;
+}
+
+.battery-row .card img{
+    width: 100%;
+}
+
+.battery-row .card .card-body{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.battery-row .card .card-footer{
+    padding: 5px;
+}
+
+.battery-row .card-footer .product-name{
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.battery-row .card-footer .prise{
+    color: red;
+    font-weight: 700;
+    text-align: center;
+}
+
+.battery-row .card-footer .prise span{
+    color: #999;
+    margin: 0 7px;
+    text-decoration: line-through;
+    font-weight: normal;
+}
+
+.battery-row .card-footer .btn-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.battery-row .card-footer .btn-section .whatsapp-btn {
+    font-size: 13px;
+    background-color: #25D366;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+}
+
+
+.battery-row .card-footer .btn-section .call-btn {
+    font-size: 13px;
+    background-color: #ef9273;
+    color: #fff;
+}
+
+.battery-row .col-lg-3{
+    margin-top: 25px;
+}
+
+.battery-row_pagination .pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.battery-row_pagination .pagination a{
+    font-size: 16px;
+    color: #ef9273
+}
+
+.battery-row_pagination .pagination li.active a{
+    background-color: #ef9273;
+    color: #fff;
+    border-color: #dee2e6;
+}
+
+.battery-row_pagination .pagination li a:focus{
+    box-shadow: none;
+}
+
+
+
+
+/* best battery section ends */
 
 
 
@@ -31,12 +206,23 @@
     .banner-section {
         padding: 100px;
     }
+    .all-batteries{
+        margin-top: 40px;
+    }
+    .battery-nav-tabs a{
+        width: unset;
+        margin-right: 7px;
+        margin-top: 7px;
+    }
 }
 
 
 @media screen and (max-width: 767px) {
     .banner-section {
         padding: 60px;
+    }
+    .battery-nav-tabs .nav-link {
+        font-size: 15px;
     }
 }
 
