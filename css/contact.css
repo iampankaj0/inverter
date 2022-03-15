@@ -15,14 +15,64 @@
 
 
 
+/* Contact Us Section Start */
+.contact-us{
+    margin-top: 60px;
+}
 
+.contact-us .find-us h2{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
 
+.contact-us .find-us p{
+    font-size: 18px;
+}
 
+.contact-us .office-loc h2{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
 
+.contact-us .office-loc ul{
+    padding-left: 20px;
+}
 
+.contact-us .office-loc li{
+    font-size: 18px;
+}
 
+.contact-us .contact-form h2{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
 
+.contact-us .contact-form form .form-control:focus{
 
+    box-shadow: none;
+    border-color: inherit;
+}
+
+.contact-us .contact-form form button{
+    background: #ffba60;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 30px;
+    margin-top: 25px;
+    transition: all .5s ease;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Contact Us Section Ends */
 
 
 
@@ -35,6 +85,9 @@
     .banner-section {
         padding: 100px;
     }
+    .contact-us{
+        margin-top: 40px;
+    }
 }
 
 
@@ -42,6 +95,15 @@
     .banner-section {
         padding: 60px;
     }
+
+    .contact-us .row .col-md-5{
+        order: 2;
+        margin-top: 40px;
+    }
+    .contact-us .row .col-md-7{
+        order: 1;
+    }
+
 }
 
 

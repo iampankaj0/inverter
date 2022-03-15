@@ -37,6 +37,55 @@
     margin-left: auto;
     border-radius: 50%;
 }
+
+.abt-section .about-content{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #000;
+}
+
+.abt-section .about-content:first-child{
+    margin-top: 0;
+}
+.abt-section .about-content:last-child{
+    border: none;
+}
+
+.abt-section .about-content .img-sec{
+    flex: 1;
+}
+
+.abt-section .about-content .img-sec img{
+    width: 80%;
+}
+
+.abt-section .about-content .about-text{
+    flex: 3;
+}
+
+.abt-section .about-content .about-text h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: teal;
+}
+
+.abt-section .about-content .about-text h2 i{
+    margin-right: 7px;
+    color: red;
+}
+
+.abt-section .about-content .about-text p{
+    font-size: 18px;
+}
+
+
+.abt-section .about-content:nth-child(even) .img-sec{
+    order: 2;
+}
+.abt-section .about-content:nth-child(even) .about-text{
+    order: 1;
+}
 /* About Section Ends */
 
 
@@ -52,6 +101,14 @@
     .abt-section{
         margin-top: 40px;
     }
+    .abt-section .about-content{
+        display: block;
+    }
+    .abt-section .about-content .img-sec img{
+        width: 50%;
+        display: flex;
+        margin: 0 auto 10px;
+    }
 }
 
 
@@ -65,5 +122,12 @@
 @media screen and (max-width: 575px) {
     .banner-section {
         padding: 60px;
+    }
+}
+
+
+@media screen and (max-width: 470px) {
+    .abt-section .about-content .img-sec img{
+        width: 100%;
     }
 }
