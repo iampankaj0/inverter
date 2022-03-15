@@ -14,8 +14,30 @@
 }
 
 
+/* About Section Start */
+.abt-section{
+    margin-top: 60px;
+}
 
+.abt-section .heading{
+    text-transform: capitalize;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
 
+.abt-section .heading:after{
+    content: '';
+    display: block;
+    border-top: 5px solid #000;
+    width: 70%;
+    margin-top: 7px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50%;
+}
+/* About Section Ends */
 
 
 
@@ -26,6 +48,9 @@
 @media screen and (max-width: 991px) {
     .banner-section {
         padding: 100px;
+    }
+    .abt-section{
+        margin-top: 40px;
     }
 }
 
