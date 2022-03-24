@@ -96,9 +96,14 @@ a:hover{
     color: #888;
 }
 
+.navbar-section .desk-navbar .desk-nav-tags a.active{
+    border-bottom: 1px solid #888;
+    color: #888;
+}
 
-
-
+.nav-tags a.active{
+    color: #fff;
+}
 
 
 
