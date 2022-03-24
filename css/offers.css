@@ -1,0 +1,228 @@
+.banner-section{
+    background: url('../images//inverter-bann.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 150px;
+}
+
+.banner-section h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #ffba60;
+}
+
+
+
+/* best inverter for you section CSS Start */
+.best-offer-avail{
+    margin-top: 60px;
+}
+
+.best-offer-avail .heading-div h2{
+    margin-bottom: 5px;
+    margin-top: 0;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.best-offer-avail .heading-div h2 span{
+    color: #ffba60;
+}
+
+.best-offer-avail .heading-div small{
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.best-offer-avail .heading-div small:after{
+    content: '';
+    display: block;
+    border-top: 5px solid #000;
+    width: 70%;
+    margin-top: 7px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50%;
+}
+
+
+
+.inverter-types li.nav-item{
+    width: 50%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+ul.inverter-types {
+    border: 1px solid #dee2e6;
+    border-radius: 15px;
+}
+
+.inverter-types .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffba60;
+}
+.inverter-types .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #ffba60;
+    border: none;
+}
+
+.inverter-types li:first-child a{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 0;
+}
+.inverter-types li:last-child a{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 0;
+}
+
+.best-offer-avail .inverter-type-heading{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 25px 0 0;
+}
+
+.offer-prod-row{
+    justify-content: center;
+}
+
+.offer-prod-row .card{
+    height: 100%;
+}
+
+.offer-prod-row .card img{
+    width: 100%;
+}
+
+.offer-prod-row .card .card-body{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.offer-prod-row .card .card-footer{
+    padding: 5px;
+}
+
+.offer-prod-row .card-footer .product-name{
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.offer-prod-row .card-footer .prise{
+    color: red;
+    font-weight: 700;
+    text-align: center;
+}
+
+.offer-prod-row .card-footer .prise span{
+    color: #999;
+    margin: 0 7px;
+    text-decoration: line-through;
+    font-weight: normal;
+}
+
+.offer-prod-row .card-footer .btn-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.offer-prod-row .card-footer .btn-section .whatsapp-btn {
+    font-size: 13px;
+    background-color: #25D366;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+}
+
+
+.offer-prod-row .card-footer .btn-section .call-btn {
+    font-size: 13px;
+    background-color: #ef9273;
+    color: #fff;
+}
+
+.offer-prod-row .col-lg-3{
+    margin-top: 25px;
+}
+
+.best-offer-avail .pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.best-offer-avail .pagination a{
+    font-size: 16px;
+    color: #ef9273
+}
+
+.best-offer-avail .pagination li.active a{
+    background-color: #ef9273;
+    color: #fff;
+    border-color: #dee2e6;
+}
+
+.best-offer-avail .pagination li a:focus{
+    box-shadow: none;
+}
+
+
+.best-offer-avail .offer-prod-row .card .offer-badge-img{
+    position: absolute;
+    top: -16px;
+    left: -16px;
+    width: 120px;
+}
+
+
+/* best inverter for you section CSS Ends */
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 991px) {
+    .banner-section {
+        padding: 100px;
+    }
+    .best-offer-avail{
+        margin-top: 40px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .banner-section {
+        padding: 60px;
+    }
+}
+
+
+@media screen and (max-width: 575px) {
+    .banner-section {
+        padding: 60px;
+    }
+}
